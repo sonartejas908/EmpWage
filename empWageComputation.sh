@@ -10,6 +10,8 @@ NUM_WORKING_DAYS=20
 totalEmpHrs=0
 totalWorkingDays=0
 
+declare -A dailywage
+
 function getWorkingHrs() {
 	case $1 in
       $IS_FULL_TIME)
